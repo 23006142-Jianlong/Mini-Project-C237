@@ -23,10 +23,10 @@
 
     // Database connection
     const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password:'',
-    database:'books_coding_project'
+    host: 'db4free.net',
+    user: 'kululong',
+    password:'Pccdc_123',
+    database:'books_coding'
     });
 
     connection.connect((err) => {
